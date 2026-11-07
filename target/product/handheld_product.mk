@@ -22,7 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
-    DeskClock \
     preinstalled-packages-platform-handheld-product.xml \
     QuickSearchBox \
     SettingsIntelligence \
@@ -33,8 +32,12 @@ PRODUCT_PACKAGES += \
     Browser2 \
     Calendar \
     Camera2 \
+    Contacts \
+    DeskClock \
+    Dialer \
     Gallery2 \
     LatinIME \
+    messaging \
     Music
 endif
 
