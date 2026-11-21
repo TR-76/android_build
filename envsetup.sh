@@ -1280,6 +1280,8 @@ function setup_ccache() {
 
 setup_ccache
 
+export USE_THINLTO_CACHE=true
+
 export ANDROID_BUILD_TOP=$(gettop)
 
 . $ANDROID_BUILD_TOP/vendor/lineage/build/envsetup.sh
